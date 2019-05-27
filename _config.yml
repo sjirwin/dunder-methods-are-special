@@ -1,0 +1,26 @@
+title: Dunder Methods Are Special
+description: Special methods are a powerful feature of Python. Such methods have names starting and ending with double underscores (aka dunder).
+author: Scott J Irwin
+
+exclude: [ README.md, proposal.md ]
+
+# using parts of jekyll-reveal framework (https://github.com/dploeger/jekyll-revealjs.git)
+reveal_path: reveal.js/
+reveal_theme_path: reveal.js/css/theme/ 
+reveal_theme: white.css
+reveal_notes_server: false
+reveal_transition: slide
+reveal_options: 
+  controlsLayout: edges
+reveal_dependencies: 
+extra_css: styles/bloomberg.css
+highlight_style_sheet: styles/zenburn-dark.css
+
+# leave these three lines alone
+markdown: redcarpet
+highlighter: rouge
+markdown_ext: ignoreme
+
+# Collections
+collections: 
+  - slides
