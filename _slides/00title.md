@@ -10,13 +10,15 @@ Scott Irwin<br/>
 <img src="images/bloomberg-logo-black.svg"
      style="border: none; box-shadow: none; height: 45px"
      alt="Bloomberg"><br/>
+<p>&nbsp;<p>
+https://sjirwin.github.io/dunder-methods-are-special/
 </center>
 
 --
 
 ## What We Will Cover
 
-- Special methods defined
+- Special Methods Defined
 - Basic Class Customization
 - Callable
 - Operator Overloading
