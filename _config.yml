@@ -11,6 +11,8 @@ reveal_theme: white.css
 reveal_notes_server: false
 reveal_transition: slide
 reveal_options: 
+  width: 1152
+  height: 720
   controlsLayout: edges
 reveal_dependencies: 
 extra_css: styles/bloomberg.css
