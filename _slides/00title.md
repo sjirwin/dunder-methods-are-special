@@ -18,8 +18,8 @@ https://sjirwin.github.io/dunder-methods-are-special/
 
 ## What We Will Cover
 
-- Special Methods Defined
-- Basic Class Customization
+- Special Methods
+- Basic Customization
 - Callable
 - Operator Overloading
 - Protocols
