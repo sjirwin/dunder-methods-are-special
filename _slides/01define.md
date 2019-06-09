@@ -9,14 +9,16 @@ title: Special Methods
 ## Terminology
 - _special methods_ is the name used in the Python documentation
 - Elsewhere might be referred to as 
-  - _dunder methods_
   - _magic methods_
+  - _dunder methods_
+    - dunder is shorthand for **d**ouble **under**score (\_\_)
 
 --
 
 ## Official Definition
 - From the Python [docs](https://docs.python.org/3/reference/datamodel.html#special-method-names)
 > Python’s approach to operator overloading, allowing classes to define their own behavior with respect to language operators
+- Example: <span style="color:indianred">`__add__`</span> method is called by the <span style="color:indianred">**`+`**</span> (plus) operator and is defined by the built-in types <span style="color:indianred">`int`</span>, <span style="color:indianred">`float`</span>, and <span style="color:indianred">`str`</span>
 
 --
 

@@ -31,7 +31,8 @@ title: Basic Customization
 
 ## `__str__`
 - Returns the "informal" or "pretty print" string representation of an object
-- Default implementation calls <span style="color:indianred">`__repr__()__`</span>
+- Called by <span style="color:indianred">`str()`</span>, <span style="color:indianred">`format()`</span>, <span style="color:indianred">`print()`</span>
+- Default implementation for <span style="color:indianred">`object`</span> calls <span style="color:indianred">`__repr__()`</span>
 
 ```python
 {% include examples/02basic/str.py %}
