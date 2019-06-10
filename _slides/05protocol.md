@@ -75,7 +75,7 @@ True
   - Can also include <span style="color:indianred">`__contains__`</span>, <span style="color:indianred">`keys`</span>, <span style="color:indianred">`items`</span>, <span style="color:indianred">`values`</span>, <span style="color:indianred">`get`</span>, <span style="color:indianred">`__eq__`</span>, <span style="color:indianred">`__ne__`</span>
 - Additional methods for `MutableMapping`
   - <span style="color:indianred">`__setitem__`</span>, <span style="color:indianred">`__delitem__`</span>
-  - Can include several more methods (e.g., <span style="color:indianred">`pop`</span>)
+  - Can include several more methods (e.g., <span style="color:indianred">`clear`</span>)
 
 --
 
@@ -87,7 +87,7 @@ True
   - <span style="color:indianred">`__iter__`</span> which returns <span style="color:indianred">`self`</span>
   - <span style="color:indianred">`__next__`</span>
     - Returns the next item from the container
-    - Raise the <span style="color:indianred">`StopIteration`</span> when there are no further items in the container
+    - Raise <span style="color:indianred">`StopIteration`</span> when there are no further items in the container
 
 --
 
