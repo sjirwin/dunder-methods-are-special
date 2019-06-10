@@ -29,6 +29,6 @@ title: Special Methods
 
 ## General Notes
 - When emulating a built-in type, generally should only implement the _special methods_ that you need
-  - Do not need to worry about completeness
+  - Do not necessarily need to worry about completeness
 - Can block functionality by setting special method to <span style="color:indianred">`None`</span>
   - Example, for a sequence container class, can set <span style="color:indianred">`__reversed__`</span> to <span style="color:indianred">`None`</span> to prevent reverse iteration

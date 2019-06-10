@@ -27,5 +27,4 @@ There are way too many special methods to cover everything in 25 minutes so the 
 * Protocols (8 min)
   * Container
   * Iterator
-  * Context Manager
 * Conclusion (1 min)
