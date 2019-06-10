@@ -18,15 +18,14 @@ There are way too many special methods to cover everything in 25 minutes so the 
 ## Outline
 * Introduction (1 min)
 * Special methods defined (2 min)
-* Basic Class Customization (3 min)
-  * init, repr, str
+* Basic Customization (3 min)
+  * init, repr, str, bool
 * Callable (3 min)
-* Operator Overloading (7 min)
+* Numerical Operators (7 min)
   * Binary Operators
   * Extended Assignment
-  * Comparison
 * Protocols (8 min)
-  * Context Manager
   * Container
   * Iterator
+  * Context Manager
 * Conclusion (1 min)

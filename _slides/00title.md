@@ -21,6 +21,6 @@ https://sjirwin.github.io/dunder-methods-are-special/
 - Special Methods
 - Basic Customization
 - Callable
-- Operator Overloading
+- Numerical Operators
 - Protocols
  
