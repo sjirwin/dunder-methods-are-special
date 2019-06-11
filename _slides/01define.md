@@ -8,7 +8,7 @@ title: Special Methods
 
 ## Terminology
 - _special methods_ is the name used in the Python documentation
-- Elsewhere might be referred to as 
+- Might be referred to elsewhere as 
   - _magic methods_
   - _dunder methods_
     - dunder is shorthand for **d**ouble **under**score (\_\_)
@@ -28,7 +28,7 @@ title: Special Methods
 --
 
 ## General Notes
-- When emulating a built-in type, generally should only implement the _special methods_ that you need
+- When emulating a built-in type, you should generally only implement the _special methods_ that you need
   - Do not necessarily need to worry about completeness
 - Can block functionality by setting special method to <span style="color:indianred">`None`</span>
   - Example, for a sequence container class, can set <span style="color:indianred">`__reversed__`</span> to <span style="color:indianred">`None`</span> to prevent reverse iteration
