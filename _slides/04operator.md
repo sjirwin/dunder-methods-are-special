@@ -36,7 +36,7 @@ Method | Operator
 
 ## Reflected Operators
 - All of the numerical operators have a reflected version
-  - <span style="color:indianred">`__radd__`</span>, <span style="color:indianred">`__rsub__`</span>, etc
+  - <span style="color:indianred">`__radd__`</span>, <span style="color:indianred">`__rsub__`</span>, etc.
 - _Right operand_'s reflected operation is called if the left operand's method returns <span style="color:indianred">`NotImplemented`</span> **and** the operands are different types
 
 --
@@ -59,8 +59,8 @@ NotImplemented
 
 ## Augmented Assignments
 - Nearly all of the numerical operators have an augmented ("in-place") version
-  - <span style="color:indianred">`__iadd__`</span>, <span style="color:indianred">`__isub__`</span>, etc
-- Implements operations <span style="color:indianred">**`+=`**</span>, <span style="color:indianred">**`-=`**</span>, etc
+  - <span style="color:indianred">`__iadd__`</span>, <span style="color:indianred">`__isub__`</span>, etc.
+- Implements operations <span style="color:indianred">**`+=`**</span>, <span style="color:indianred">**`-=`**</span>, etc.
 - No in-place <span style="color:indianred">`divmod`</span>
 - Generally, these methods should do the operation in-place (modifying _self_) and return the result
   - While the result could be _self_, it does not have to be
