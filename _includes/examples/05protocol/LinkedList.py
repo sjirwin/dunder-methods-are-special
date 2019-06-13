@@ -56,7 +56,9 @@ class LinkedList(MutableSequence):
         self.head = prev
 
     def insert(self, index, value):
-        if self._index_ok(index):
+        if index == 0 and self._num_nodes == 0:
+            self.prepend(value)
+        elif self._index_ok(index):
             return self._ins(index, value)
 
     def __len__(self):
