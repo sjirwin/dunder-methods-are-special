@@ -7,7 +7,7 @@ title: Numerical Operators
 --
 
 ## Binary Operators
-- Numerical types emulated by defining these methods
+- Emulate numerical types by defining these methods
 
 Method | Operator
 --- | ---
@@ -60,8 +60,8 @@ NotImplemented
 ## Augmented Assignments
 - Nearly all of the numerical operators have an augmented ("in-place") version
   - <span style="color:indianred">`__iadd__`</span>, <span style="color:indianred">`__isub__`</span>, etc.
+  - No in-place <span style="color:indianred">`divmod`</span>
 - Implements operations <span style="color:indianred">**`+=`**</span>, <span style="color:indianred">**`-=`**</span>, etc.
-- No in-place <span style="color:indianred">`divmod`</span>
 - Generally, these methods should do the operation in-place (modifying _self_) and return the result
   - While the result could be _self_, it does not have to be
 

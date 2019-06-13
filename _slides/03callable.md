@@ -10,8 +10,8 @@ title: Callable
 - A callable object is any object that can be "called"
   - Basically, any object that supports the <span style="color:indianred">`()`</span> operator
 - Python callable objects
-  - User-defined functions
   - Built-in functions
+  - User-defined functions
   - Class objects
   - Methods of built-in objects
   - Methods of class instances
@@ -20,7 +20,7 @@ title: Callable
 --
 
 ## `__call__`
-- Informally, defining <span style="color:indianred">`__call__()`</span> means instances of a class behave as functions
+- Informally, defining <span style="color:indianred">`__call__()`</span> means class instances behave as functions
 
 ```python
 {% include examples/03callable/MultiplyBy.py %}

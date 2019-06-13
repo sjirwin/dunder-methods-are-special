@@ -8,9 +8,9 @@ title: Basic Customization
 
 ## `__init__`
 - Initialises a newly created instance of the class
-- Derived class <span style="color:indianred">`__init__`</span> needs to explicitly call the base class <span style="color:indianred">`__init__`</span>
 - Should not have a <span style="color:indianred">`return`</span> statement
   - A <span style="color:indianred">`TypeError`</span> is raised if a non-<span style="color:indianred">`None`</span> is returned
+- Derived class <span style="color:indianred">`__init__`</span> needs to explicitly call the base class <span style="color:indianred">`__init__`</span>
 
 ```python
 {% include examples/02basic/init.py %}
