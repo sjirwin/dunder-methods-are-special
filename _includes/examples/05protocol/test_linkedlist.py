@@ -47,6 +47,7 @@ class TestLinkedList(unittest.TestCase):
             llist.append(i*2)
         self.assertTrue(2 in llist)
         self.assertFalse(42 in llist)
+        self.assertTrue(42 not in llist)
 
     def test_07_setitem(self):
         sz = 10
